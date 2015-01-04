@@ -1,9 +1,10 @@
-var game = new Phaser.Game(800, 600, Phaser.AUTO, '',
+var game = new Phaser.Game(800, 600, Phaser.AUTO, 'Phaser01',
     {
         preload: preload,
         create: create,
         update: update
-    });
+    }
+);
 
 var platforms, player, cursors, stars;
 var score = 0;
